@@ -2,7 +2,7 @@
 layout: default
 desc: Pomax's guide to Processing.js
 title: Pomax Guide
-permalink: /articles/PomaxGuide.html
+permalink: ./articles/PomaxGuide.html
 ---
 <script type="text/javascript">
   function toggleContent(id) {
@@ -117,7 +117,7 @@ permalink: /articles/PomaxGuide.html
 
   <p>This page tries to explain how to quickly and (as) correctly (as possible) use
   Processing sketches on webpages. The information is based on the work done by
-  the <a href="/">processing.js</a> group.</p>
+  the <a href="./">processing.js</a> group.</p>
 
   <p>This information on this page reflects the best of my knowledge anno November
   2010, and processing.js becomes more and more complete, so it is possible that the
@@ -125,7 +125,7 @@ permalink: /articles/PomaxGuide.html
   or blatant mistakes, please contact me at
 
   <!-- ah, the wonder of making a scrape-proof email address -->
-  <a href="http://www.nihongoresources.com/general/contact.html">pomax<i> at
+  <a href="https://www.nihongoresources.com/general/contact.html">pomax<i> at
   </i>nihongoresources.<i>com,</i></a>
 
   with the obvious substitutions in place to make it a legal email address.</p>
@@ -180,7 +180,7 @@ permalink: /articles/PomaxGuide.html
     ellipse(ball_x,ball_y,ball_radius,ball_radius);
   }{% endhighlight %}
 
-  <canvas id="sketch1" data-processing-sources="/sketches/sketch1.pde" style="border: 1px solid blue;"></canvas>
+  <canvas id="sketch1" data-processing-sources="./sketches/sketch1.pde" style="border: 1px solid blue;"></canvas>
 
   <div>
     <span style="font-size:80%">play controls:</span>
@@ -232,7 +232,7 @@ permalink: /articles/PomaxGuide.html
   </ul>
 
   <p>The Processing API is in fact quite expansive (See
-  <a href="http://processing.org/reference">http://processing.org/reference</a> for the full
+  <a href="https://processing.org/reference">http://processing.org/reference</a> for the full
   list), but it can't cover everything. Luckily it supports object oriented programming, so
   that our previous example can also be written as an object oriented sketch:</p>
 
@@ -282,7 +282,7 @@ permalink: /articles/PomaxGuide.html
     }
   }{% endhighlight %}
 
-  <canvas id="sketch2" data-processing-sources="/sketches/sketch2.pde" style="border: 1px solid blue;"></canvas>
+  <canvas id="sketch2" data-processing-sources="./sketches/sketch2.pde" style="border: 1px solid blue;"></canvas>
 
   <div>
     <span style="font-size:80%">play controls:</span>
@@ -327,7 +327,7 @@ permalink: /articles/PomaxGuide.html
     rect(x,y,w,h);
   }{% endhighlight %}
 
-  <canvas id="sketch3" data-processing-sources="/sketches/sketch3.pde" style="border: 1px solid blue;"></canvas>
+  <canvas id="sketch3" data-processing-sources="./sketches/sketch3.pde" style="border: 1px solid blue;"></canvas>
 
   <div>
     <span style="font-size:80%">play controls:</span>
@@ -360,7 +360,7 @@ permalink: /articles/PomaxGuide.html
   }
   ...{% endhighlight %}
 
-  <canvas id="sketch4" data-processing-sources="/sketches/sketch4.pde" style="border: 1px solid blue;"></canvas>
+  <canvas id="sketch4" data-processing-sources="./sketches/sketch4.pde" style="border: 1px solid blue;"></canvas>
 
   <div>
     <span style="font-size:80%">play controls:</span>
@@ -456,7 +456,7 @@ permalink: /articles/PomaxGuide.html
     }
   }{% endhighlight %}
 
-  <canvas id="sketch5" data-processing-sources="/sketches/sketch5.pde" style="border: 1px solid blue;"></canvas>
+  <canvas id="sketch5" data-processing-sources="./sketches/sketch5.pde" style="border: 1px solid blue;"></canvas>
 
   <div>
     <span style="font-size:80%">play controls:</span>
@@ -605,7 +605,7 @@ permalink: /articles/PomaxGuide.html
     }
   }{% endhighlight %}
 
-  <canvas id="sketch6" data-processing-sources="/sketches/mysketch.pde" style="border: 1px solid blue;"></canvas>
+  <canvas id="sketch6" data-processing-sources="./sketches/mysketch.pde" style="border: 1px solid blue;"></canvas>
 
   <div>
     <span style="font-size:80%">play controls:</span>
@@ -640,7 +640,7 @@ permalink: /articles/PomaxGuide.html
     </body>
   </html>{% endhighlight %}
 
-  <canvas id="mysketch1" data-processing-sources="/sketches/mysketch.pde" style="border: 1px solid blue;"></canvas>
+  <canvas id="mysketch1" data-processing-sources="./sketches/mysketch.pde" style="border: 1px solid blue;"></canvas>
 
   <div>
     <span style="font-size:80%">play controls:</span>
@@ -765,7 +765,7 @@ permalink: /articles/PomaxGuide.html
   <p>This has the same effect as the sketch that's running below. Simply fill in a bit
   of text, and hit the &#9654; button to see the sketch render it on the drawing area.</p>
 
-  <canvas id="mysketch2" data-processing-sources="/sketches/mysketch2.pde" style="border: 1px solid blue;"></canvas>
+  <canvas id="mysketch2" data-processing-sources="./sketches/mysketch2.pde" style="border: 1px solid blue;"></canvas>
 
   <div>
     <span style="font-size:80%">set text:</span>
@@ -922,7 +922,7 @@ permalink: /articles/PomaxGuide.html
     </body>
   </html>{% endhighlight %}
 
-  <canvas id="mysketch3" data-processing-sources="/sketches/mysketch3.pde"></canvas>
+  <canvas id="mysketch3" data-processing-sources="./sketches/mysketch3.pde"></canvas>
 
   <div>
     x/y coordinates: <input type="textfield" id="xcoord" style="width: 3em;">/<input type="textfield" id="ycoord" style="width: 3em;">
@@ -974,7 +974,7 @@ permalink: /articles/PomaxGuide.html
     void draw() { ellipse(x,y,10,10); }
   }{% endhighlight %}
 
-  <canvas id="mysketch4" data-processing-sources="/sketches/mysketch4.pde" style="border: 1px solid black;"></canvas>
+  <canvas id="mysketch4" data-processing-sources="./sketches/mysketch4.pde" style="border: 1px solid black;"></canvas>
 
   <div>click to place points</div>
 
@@ -991,7 +991,7 @@ permalink: /articles/PomaxGuide.html
     pjs.draw();
   }{% endhighlight %}
 
-  <canvas id="mysketch5" data-processing-sources="/sketches/mysketch5.pde" style="border: 1px solid black;"></canvas>
+  <canvas id="mysketch5" data-processing-sources="./sketches/mysketch5.pde" style="border: 1px solid black;"></canvas>
 
   <div>load points: <button type="button" id="loadPoints" onclick="loadPointsJS('mysketch5', this)">load</button></div>
 
@@ -1076,7 +1076,7 @@ permalink: /articles/PomaxGuide.html
     </body>
   </html>{% endhighlight %}
 
-  <canvas id="mysketch6" data-processing-sources="/sketches/mysketch6.pde" style="border: 1px solid black;"></canvas>
+  <canvas id="mysketch6" data-processing-sources="./sketches/mysketch6.pde" style="border: 1px solid black;"></canvas>
 
   <div>load points: <button type="button" id="loadPoints" onclick="loadPointsJSON('mysketch6', this)">load</button></div>
 
@@ -1093,7 +1093,7 @@ permalink: /articles/PomaxGuide.html
   comes into play. Rather than trying to use javascript to parse the XML, we pass the xml data
   straight on to our sketch, which will know exactly what to do with it:</p>
 
-  <canvas id="mysketch7" data-processing-sources="/sketches/mysketch7.pde" style="border: 1px solid black;"></canvas>
+  <canvas id="mysketch7" data-processing-sources="./sketches/mysketch7.pde" style="border: 1px solid black;"></canvas>
 
   <div>load points: <button type="button" id="loadPoints" onclick="loadPointsXML('mysketch7', this)">load</button></div>
 
@@ -1138,7 +1138,7 @@ permalink: /articles/PomaxGuide.html
   special about it is that it already represents visual data, and Processing can load SVG
   XML natively.</p>
 
-  <canvas id="mysketch8" data-processing-sources="/sketches/mysketch8.pde"></canvas>
+  <canvas id="mysketch8" data-processing-sources="./sketches/mysketch8.pde"></canvas>
 
   <div>drawing with SVG</div>
 
@@ -1478,9 +1478,9 @@ permalink: /articles/PomaxGuide.html
   #processing.js IRC channel on irc.mozilla.org.</p>
 
   <ul>
-    <li><a href="/learning/">learning</li>
-    <li><a href="/articles/jsQuickStart.html">Processing.js Quick Start - JavaScript Developer Edition</a></li>
-    <li><a href="/articles/p5QuickStart.html">Processing.js Quick Start - Processing Developer Edition</a></li>
+    <li><a href="./learning/">learning</li>
+    <li><a href="./articles/jsQuickStart.html">Processing.js Quick Start - JavaScript Developer Edition</a></li>
+    <li><a href="./articles/p5QuickStart.html">Processing.js Quick Start - Processing Developer Edition</a></li>
   </ul>
 
 </div>
